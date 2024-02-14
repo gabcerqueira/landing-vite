@@ -6,7 +6,7 @@ export const Container = styled.div`
 export const StyledButton = styled(Button)`
   &&& {
     background-color: ${(props) => props.theme.colors.primary};
-    color: ${(props) => props.theme.colors.background};
+    color: ${(props) => props.theme.colors.black};
     border: none;
     border-radius: 5px;
     padding: 1rem;
@@ -15,7 +15,7 @@ export const StyledButton = styled(Button)`
     width: 100%;
     &:hover {
       background-color: ${(props) => props.theme.colors.primaryHover};
-      color: ${(props) => props.theme.colors.black};
+      color: ${(props) => props.theme.colors.background};
     }
   }
 `;
