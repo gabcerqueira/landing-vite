@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes } from "react";
+import { InputHTMLAttributes } from "react";
 import { Form } from "semantic-ui-react";
 import { InputContainer } from "./styles";
 

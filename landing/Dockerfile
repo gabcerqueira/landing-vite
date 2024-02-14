@@ -3,7 +3,7 @@ FROM node:18.6
 
 WORKDIR /app
 
-COPY package.json yarn.lock ./
+COPY package.json .
 
 
 RUN yarn install

@@ -5,6 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   background-color: ${(props) => props.theme.colors.background};
 `;
 
@@ -14,7 +15,7 @@ export const Content = styled.div`
   background-color: ${(props) => props.theme.colors.primary};
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  height: 50%;
+  height: 60%;
   display: flex;
   justify-content: flex-start;
   align-items: center;

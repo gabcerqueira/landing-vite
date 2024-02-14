@@ -1,5 +1,4 @@
-import React from "react";
-import { Container, LogoLabel } from "./styles";
+import { Container, LogoImg, LogoLabel } from "./styles";
 
 type Props = {
   labeled?: boolean;
@@ -8,7 +7,7 @@ type Props = {
 function Logo({ labeled = true }: Props) {
   return (
     <Container>
-      <img src="../../../public/logo-clean.png" width={170} height={140} />
+      <LogoImg src="../../../logo-clean.png" alt="img" />
       {labeled && (
         <LogoLabel>India's first waterless car cleaning company</LogoLabel>
       )}

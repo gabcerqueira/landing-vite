@@ -67,10 +67,16 @@ export const FormContent = styled.div`
   align-items: center;
   flex-direction: column;
   max-width: 40rem;
+
+  @media screen and (max-width: 768px) {
+    height: 80%;
+  }
 `;
 
 export const FormTitle = styled.h2`
-  margin-bottom: 40px;
+  @media screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
 `;
 
 export const StyledForm = styled(Form)`
@@ -80,12 +86,20 @@ export const StyledForm = styled(Form)`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 90%;
+  height: 80%;
+  @media screen and (max-width: 768px) {
+    height: 80%;
+    margin-top: 1rem;
+  }
 `;
 
 export const ButtonWrapper = styled.div`
   width: 90%;
   margin-top: 6rem;
+  @media screen and (max-width: 768px) {
+    height: 80%;
+    margin-top: 3rem;
+  }
 `;
 
 export const HelpLink = styled(Link)`
@@ -111,5 +125,8 @@ export const ForgotPasswordLink = styled(Link)`
   &:hover {
     text-decoration: none;
     color: ${(props) => props.theme.colors.black};
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
   }
 `;

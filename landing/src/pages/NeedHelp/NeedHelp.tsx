@@ -1,8 +1,6 @@
 import Logo from "../../components/logo/Logo";
 import { Container, Content, Title, Text } from "./styles";
 
-type Props = {};
-
 const NeedHelp = () => {
   const companySupportEmail = "support@example.com";
   const companySupportPhone = "+1-800-123-4567";
