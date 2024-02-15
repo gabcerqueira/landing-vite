@@ -26,6 +26,7 @@ function ForgotPassword() {
               type="email"
               onChange={handleInputChange}
               value={email}
+              placeholder="joe@email.com"
             />
             <ButtonWrapper>
               <CustomButton type={"submit"}>Reset</CustomButton>
