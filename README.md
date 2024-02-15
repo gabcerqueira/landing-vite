@@ -23,8 +23,16 @@ To set up the project using Docker, navigate to the "landing" folder and run:
 docker-compose up --build
 ```
 
+### OR
+
+
 ### Development Mode
 To start the development server, run:
+
+```
+yarn install
+````
+
 ```
 yarn dev
 ```
